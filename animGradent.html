@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animGrandent</title>
+    <style>
+        .loader {
+            width:60px;
+            height:60px;
+            border-radius: 50%;
+            border:10px solid;
+            border-color:#33ccff #ff99cc;
+            animation:2s spin infinite;
+        }
+        @keyframes spin{
+            to{
+                transform:rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+        <h2><b>Loading</b></h2>
+        <div class="loader"></div>
+</body>
+</html>
